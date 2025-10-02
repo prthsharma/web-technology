@@ -1,0 +1,57 @@
+<!-- Design a biodata form using forms and controls in HTML. -->
+
+<html lang="en">
+<head>
+    <title>Biodata Form by Parth</title>
+</head>
+<body>
+
+<h2>Biodata Form by Parth</h2>
+
+<fieldset>
+    <legend>Personal Information</legend>
+
+    <form action="#" method="post">
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br></br>
+
+        <!-- Nationality -->
+        <label for="nationality">Nationality:</label><br>
+        <select id="nationality" name="nationality" required>
+            <option value="">--Select Country--</option>
+            <option value="India">India</option>
+            <option value="United States">USA</option>
+            <option value="United Kingdom">Japan</option>
+        </select><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+
+        <!-- Contact Information -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</fieldset>
+
+</body>
+</html>

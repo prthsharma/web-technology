@@ -1,0 +1,56 @@
+<!-- Create a table using HTML demonstrating use of column/rows, merging many rows/columns, etc. Also add data and image value & content with hyperlinks. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smaller HTML Table Example</title>
+    <style>
+    table, tr, th, td {
+      border: 1px solid black;
+      padding: 10px;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+<h2>Mini Tech Products Table</h2>
+
+<table>
+    <tr>
+        <th rowspan="2">Product</th>
+        <th rowspan="2">Image</th>
+        <th colspan="2">Details</th>
+        <th rowspan="2">Buy Link</th>
+    </tr>
+    <tr>
+        <th>Brand</th>
+        <th>Price</th>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Phone</td>
+        <td rowspan="2"><img src="#" alt="Phone"></td>
+        <td>Apple</td>
+        <td>$900</td>
+        <td rowspan="2"><a href="#" target="_blank">Visit</a></td>
+    </tr>
+    <tr>
+        <td>Samsung</td>
+        <td>$800</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Laptop</td>
+        <td rowspan="2"><img src="#" alt="Gaming Console"></td>
+        <td colspan="2">Dell Inspiron</td>
+        <td rowspan="2"><a href="#" target="_blank">Visit</a></td>
+    </tr>
+</table>
+
+</body>
+</html>
